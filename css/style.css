@@ -1,0 +1,463 @@
+/* :::::::Font Link Start:::::::: */
+@font-face {
+    font-family:Roboto-Light;
+    src: url(../Font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(../Font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(../Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:PlayfairDisplay-Regular;
+    src: url(../Font/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family:Rufina-Regular;
+    src: url(../Font/Rufina-Regular.ttf);
+}
+@font-face {
+    font-family:Rufina-Bold;
+    src: url(../Font/Rufina-Bold.ttf);
+}
+/* :::::::Font Link End:::::::: */
+
+
+
+/* ::::::: Common css Start:::::::: */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Roboto-Light;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #fff;
+    color: #6c6c6f;
+    line-height: 27px;
+  }
+  a{
+      text-decoration: none;
+      outline: 0px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    font-family:Rufina-Bold;
+    font-weight: 700;
+  }
+  p{
+      margin: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  section {
+    display: block;
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+  }
+/* ::::::: Common css End:::::::: */
+
+
+
+
+/* ::::::::: Header  start ::::::::: */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.castom-toggler{
+    padding: 3px 0;
+}
+.castom-toggler:focus{
+    box-shadow: none;
+}
+.castom-toggler span{
+    height: unset;
+    width: unset;
+    font-size: 25px;
+    color: #ff817e;
+}
+.menu{
+    margin-right: 170px;
+}
+.menu ul li a{
+    padding: 0 20px !important;
+    font-family:Roboto-Medium;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #263a41 !important;
+    display: block;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #ff817e !important;
+}
+
+/* ::::::::: Header  end ::::::::: */
+
+
+
+
+/* ::::::::: Banner section  start ::::::::: */
+.banner{
+    background: url(../image/leaf.png)no-repeat left center/12.5%;
+    padding: 170px 0;
+}
+.spa-img img{
+    position: absolute;
+    width: 43.4%;
+    right: 0;
+    top: 0;
+}
+.banner-content span{
+    margin-bottom: 20px;
+    font-family:Rufina-Regular;
+    font-size: 15px;
+    color: #ff817e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+}
+.banner-content h2{
+    margin-bottom: 25px;
+    font-family:Rufina-Bold;
+    font-size: 60px;
+    line-height: 75px;
+    color: #1e2528;
+}
+.banner-content p{
+    margin-bottom: 50px;
+    color: #555555;
+}
+.common-btn{
+    padding: 15px 43px;
+    font-family:Roboto-Medium;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #ffffff !important;
+    background: #ff817e;
+    border: 1px solid #ff817e;
+    border-radius: 0;
+    transition: .5s;
+}
+.common-btn:focus{
+    box-shadow: none;
+}
+.common-btn:hover{
+    background: transparent;
+    color: #ff817e !important;
+}
+.video-btn{
+    margin-left: 15px;
+    color: #555555 !important;
+    font-size: 15px;
+    transition: .5s;
+}
+.video-btn:hover{
+    color: #ff817e !important;
+}
+.video-btn i{
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+    background-color: #fcf5ee;
+    color: #ff817e;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+}
+/* ::::::::: Banner section  end ::::::::: */
+
+
+
+
+
+/* ::::::::: About section start ::::::::: */
+.flower-1{
+    position: absolute;
+    max-width: 160px;
+    top: 0;
+    left: 16%;
+}
+.flower-2{
+    position: absolute;
+    max-width: 88px;
+    top: 50%;
+    right: 125px;
+}
+.common-heading{
+    position: relative;
+    /* margin-bottom: 70px; */
+}
+.common-heading img{
+    max-width: 84px;
+    margin: 0 auto 40px;
+}
+.tagline{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #888;
+    display: block;
+    line-height: .8;
+    margin-bottom: 27px;
+}
+.common-title{
+    font-family:Rufina-Bold;
+    font-size: 42px;
+    color: #1e2528;
+    margin-bottom: 32px;
+}
+.common-heading p{
+    color: #888;
+    margin-bottom: 0;
+    padding: 0 2px;
+}
+.btn-round{
+    margin-top: 60px;
+    border-radius: 50px;
+}
+/* ::::::::: About section start ::::::::: */
+
+
+
+
+
+
+
+/* ::::::::: Service section start ::::::::: */
+.service-caro {
+    display: flex;
+    justify-content: space-between;
+  }
+.single-service {
+    flex-basis: 25%;
+    position: relative;
+  }
+  .service-hover{
+    background-color: rgba(255, 129, 126, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: .5s;
+  }
+.service-hover img {
+    margin: 0 auto 20px;
+    width: 47px !important;
+  }
+.service-hover span {
+    color: #fff;
+    display: block;
+    font-family:Rufina-Bold;
+  }
+.single-service:hover .service-hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    cursor: pointer;
+  }
+  .service .owl-dots{
+      display: none;
+  }
+/* ::::::::: Service section start ::::::::: */
+
+
+
+
+
+/* ::::::::: Procedures section start ::::::::: */
+.proced p{
+    padding: 0 95px;
+}
+.procedures-item{
+    margin-top: 70px;
+    padding: 20px;
+    border: 1px solid #e3e6ea;
+    transition: .5s;
+}
+.procedures-item h4{
+    margin: 35px 0 30px;
+    font-family:Rufina-Bold;
+    font-size: 22px;
+    color: #263a41;
+}
+.procedures-item p{
+    padding: 0 8px;
+    font-family:Roboto-Light;
+    font-size: 15px;
+    color: #888888;
+}
+.proced-btn{
+    padding: 9px 28px !important;
+    margin: 30px 0 15px;
+    border-radius: 50px;
+}
+.procedures-item:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* ::::::::: Procedures section end ::::::::: */
+
+
+
+
+
+
+/* ::::::::: Testimonial section  start ::::::::: */
+.testimonial{
+    background-color: #fff9f8;
+}
+.single-tst img {
+    margin: 0 auto 45px;
+    width: 59px !important;
+}
+.single-tst p{
+    font-family:Rufina-Regular;
+    font-size: 18px;
+    color: #263a41;
+    line-height: 35px;
+    margin-bottom: 43px;
+}
+.client-info img{
+    border-radius: 50%;
+    margin-bottom: 22px;
+    height: 76px;
+    width: 76px !important;
+}
+.client-info p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.client-info p span {
+    display: inline-block;
+    font-family:Roboto-Light;
+    font-size: 15px;
+}
+.owl-dots{
+    text-align: center;
+
+  }
+  
+.owl-dots span {
+
+    background-color: #ffc3c2;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    height: 8px;
+    width: 8px;
+  }
+/* ::::::::: Testimonial section  end ::::::::: */
+
+
+
+
+
+
+
+/* ::::::::: Team section  start ::::::::: */
+.single-team{
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+}
+.st-details{
+    position: relative;
+    background-color: #fff;
+    margin: -55px auto 0;
+    width: 85%;
+    box-shadow: 0 5px 20px #f0f0f0;
+    transition: .5s;
+
+}
+.st-details h4{
+    padding-top: 25px;
+    font-family:Rufina-Bold;
+    font-size: 22px;
+    color: #263a41;
+}
+.st-details span{
+    font-family:Roboto-Light;
+    font-size: 15px;
+    color: #888888;
+}
+.team-social{
+    margin-top: -30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.team-social a{
+    margin: 15px 5px 25px;
+    height: 30px;
+    width: 30px;
+    font-size: 13px;
+    color: #30383b;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #30383b;
+    border-radius: 50%;
+    transition: .3s;
+}
+.team-social a:hover{
+    background-color: #ff817e;
+    color: #fff;
+    border: 1px solid #ff817e;
+}
+.single-team:hover .st-details {
+    margin-top: -84px;
+  }
+  
+.single-team:hover .team-social {
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+/* ::::::::: Team section  end ::::::::: */
+
+
+
+
+
+
+
+/* :::::::::  Appointment section start ::::::::: */
+
+/* :::::::::  Appointment section end ::::::::: */

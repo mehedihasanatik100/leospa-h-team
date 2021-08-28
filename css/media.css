@@ -1,0 +1,465 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* ::::::::: Header  start ::::::::: */
+    .castom-toggler {
+        padding: 0px 0;
+    }
+    .menu {
+        margin-right: 0;
+        background-color: #fcf5ee;
+        transition: .5s;
+    }
+    .menu ul li a {
+        margin-top: 15px;
+    }
+    /* ::::::::: Header  end ::::::::: */
+
+
+
+
+    /* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 125px 0 45px;
+    }
+    .spa-img {
+        display: none;
+    }
+    .banner-content span {
+        margin-bottom: 0px;
+        letter-spacing:0;
+    }
+    .banner-content h2 {
+        margin-bottom: 4px;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .banner-content p {
+        margin-bottom: 17px;
+    }
+    .common-btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .video-btn {
+        margin-left: 6px;
+    }
+    .video-btn i {
+        margin-right: 4px;
+        height: 36px;
+        width: 36px;
+        line-height: 31px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+
+
+
+    /* ::::::::: About section start ::::::::: */
+    section {
+        padding: 30px 0;
+    }
+    .flower-1 {
+        display: none;
+    }
+    .flower-2 {
+        display: none;
+    }
+    /* .common-heading {
+        margin-bottom: 15px;
+    } */
+    .tagline {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .common-title {
+        font-size: 25px;
+    margin-bottom: 12px;
+    }
+    .btn-round {
+        margin-top: 23px;
+    }
+    /* ::::::::: About section end ::::::::: */
+
+
+     /* ::::::::: Procedures section start ::::::::: */
+     section {
+        padding: 30px 0;
+    }
+    .proced p {
+        padding: 0 0px;
+    }
+    .procedures-item p {
+        padding:0;
+    }
+    .procedures-item {
+        margin-top: 25px;
+        padding: 0;
+    }
+    .procedures-item h4 {
+        margin: 15px 0 15px;
+        font-size: 18px;
+    }
+    .proced-btn {
+        margin: 15px 0 15px;
+    }
+    /* ::::::::: Procedures section end ::::::::: */
+
+
+    /* ::::::::: Testimonial section  start ::::::::: */
+    section {
+        padding: 30px 0;
+    }
+     .single-tst img {
+        margin: 0 auto 20px;
+        width: 30px !important;
+    }
+    .single-tst p {
+        font-size: 17px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    .client-info img {
+        margin-bottom: 13px;
+        height: 70px;
+        width: 70px !important;
+    }
+    .client-info p {
+            line-height: 7px;
+    }
+    /* ::::::::: Testimonial section  end ::::::::: */
+
+
+
+    /* ::::::::: Team section  start ::::::::: */
+    section {
+        padding: 30px 0;
+    }
+    .single-team {
+        margin-top: 15px;
+    }
+    .st-details h4 {
+        padding-top: 13px;
+        font-size: 18px;
+    }
+    .team-social a {
+        margin: 7px 3px 16px;
+        height: 27px;
+        width: 27px;
+    }
+    /* ::::::::: Team section  end ::::::::: */
+	
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)  {
+
+    /* ::::::::: Header  start ::::::::: */
+    .castom-toggler {
+        padding: 0px 0;
+    }
+    .menu {
+        margin-right: 0;
+        background-color: #fcf5ee;
+        transition: .5s;
+    }
+    .menu ul li a {
+        margin-top: 15px;
+    }
+    /* ::::::::: Header  end ::::::::: */
+
+
+
+    /* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 135px 0 67px;
+    }
+    .spa-img {
+        display: none;
+    }
+    .banner-content span {
+        margin-bottom: 0px;
+        letter-spacing: 0.5px;
+    }
+    .banner-content h2 {
+        margin-bottom: 4px;
+        font-size: 44px;
+        line-height: 59px;
+    }
+    .banner-content p {
+        margin-bottom: 17px;
+    }
+    .common-btn {
+        padding: 10px 27px;
+    }
+    .video-btn {
+        margin-left: 10px;
+    }
+    .video-btn i {
+        margin-right: 8px;
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+
+
+
+
+    /* ::::::::: About section start ::::::::: */
+    .flower-1 {
+        display: none;
+    }
+    .flower-2 {
+        display: none;
+    }
+    /* .common-heading {
+        margin-bottom: 40px;
+    } */
+    .tagline {
+        font-size: 19px;
+        margin-bottom: 22px;
+    }
+    .common-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .btn-round {
+        margin-top: 35px;
+    }
+    /* ::::::::: About section end ::::::::: */
+
+
+
+    /* ::::::::: Procedures section start ::::::::: */
+    section {
+        padding: 40px 0;
+    }
+    .proced p {
+        padding: 0 25px;
+    }
+    .procedures-item p {
+        padding:0;
+    }
+    .procedures-item {
+        margin-top: 50px;
+        padding: 0;
+    }
+    .procedures-item h4 {
+        margin: 20px 0 20px;
+        font-size: 20px;
+    }
+    .proced-btn {
+        margin: 20px 0 20px;
+    }
+    /* ::::::::: Procedures section end ::::::::: */
+
+
+
+     /* ::::::::: Testimonial section  start ::::::::: */
+     section {
+        padding: 40px 0;
+    }
+     .single-tst img {
+        margin: 0 auto 30px;
+        width: 50px !important;
+    }
+    .single-tst p {
+        margin-bottom: 30px;
+    }
+    .client-info img {
+        margin-bottom: 13px;
+        height: 70px;
+        width: 70px !important;
+    }
+    .client-info p {
+        margin-bottom: 10px;
+    }
+    /* ::::::::: Testimonial section  end ::::::::: */
+
+
+    
+    /* ::::::::: Team section  start ::::::::: */
+    section {
+        padding: 40px 0;
+    }
+    .single-team {
+        margin-top: 20px;
+    }
+    .st-details h4 {
+        padding-top: 15px;
+        font-size: 19px;
+    }
+    .team-social a {
+        margin: 7px 3px 16px;
+        height: 27px;
+        width: 27px;
+    }
+    /* ::::::::: Team section  end ::::::::: */
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)  {
+    /* ::::::::: Header  start ::::::::: */
+    .menu {
+        margin-right: 0;
+        background-color: #fcf5ee;
+        transition: .5s;
+    }
+    .menu ul li a {
+        margin-top: 15px;
+    }
+    /* ::::::::: Header  end ::::::::: */
+
+
+
+    /* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 150px 0 80px;
+    }
+    .spa-img {
+        display: none;
+    }
+    .banner-content span {
+        margin-bottom: 10px;
+    }
+    .banner-content h2 {
+        margin-bottom: 10px;
+        font-size: 50px;
+        line-height: 66px;
+    }
+    .banner-content p {
+        margin-bottom: 25px;;
+    }
+    .common-btn {
+        padding: 13px 35px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+
+
+     /* ::::::::: About section start ::::::::: */
+     .flower-1 {
+        max-width: 135px;
+        left: 12%;
+    }
+    .flower-2 {
+        display: none;
+    }
+    /* .common-heading {
+        margin-bottom: 40px;
+    } */
+    .tagline {
+        margin-bottom: 22px;
+    }
+    .common-title {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .btn-round {
+        margin-top: 50px;
+    }
+    /* ::::::::: About section end ::::::::: */
+
+
+
+    /* ::::::::: Procedures section start ::::::::: */
+    .proced p {
+        padding: 0 25px;
+    }
+    .procedures-item p {
+        padding:0;
+    }
+    .procedures-item {
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .procedures-item h4 {
+        margin: 30px 0 25px;
+        font-size: 22px;
+    }
+    /* ::::::::: Procedures section end ::::::::: */
+
+
+
+    /* ::::::::: Testimonial section  start ::::::::: */
+    .single-tst img {
+        margin: 0 auto 40px;
+        width: 55px !important;
+    }
+    .single-tst p {
+        margin-bottom: 30px;
+    }
+    .client-info img {
+        margin-bottom: 18px;
+        height: 70px;
+        width: 70px !important;
+    }
+    .client-info p {
+        margin-bottom: 20px;
+    }
+    /* ::::::::: Testimonial section  end ::::::::: */
+
+
+    /* ::::::::: Team section  start ::::::::: */
+    .single-team {
+        margin-top: 30px;
+    }
+    .st-details h4 {
+        padding-top: 20px;
+        font-size: 21px;
+    }
+    .team-social a {
+        margin: 10px 5px 20px;
+    }
+    /* ::::::::: Team section  end ::::::::: */
+	
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ::::::::: Banner section  start ::::::::: */
+    .banner {
+        padding: 150px 0 110px;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+    }
+    /* ::::::::: Banner section  end ::::::::: */
+
+
+
+    /* ::::::::: About section start ::::::::: */
+    .flower-1 {
+        max-width: 150px;
+        left: 12%;
+    }
+    .flower-2 {
+        top: 49%;
+        right: 49px;
+    }
+    /* ::::::::: About section end ::::::::: */
+
+
+
+    /* ::::::::: Procedures section start ::::::::: */
+    .proced p {
+        padding: 0 25px;
+    }
+    .procedures-item p {
+        padding:0;
+    }
+    /* ::::::::: Procedures section end ::::::::: */
+
+
+
+    
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
